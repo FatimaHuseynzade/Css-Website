@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(39, 39, 64, 0.922);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .navbar ul li h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar ul li a i {
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    
+    
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    color: aliceblue;
+
+}
+
+.logo{ 
+    width: 100%;
+    height: 400px;
+    background-color: rgb(190, 46, 46);
+    position: relative; 
+    
+} 
+.style {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1468657988500-aca2be09f4c6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxhbGx8fHx8fHx8fHwxNjE5NzYxNTgy&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ img {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 100px;
+   justify-content: center;
+   align-items: center;
+ }
+ .type {
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-top: 290px;
+    justify-content: center;
+    align-items: center;
+   
+ }
+
+h1, p {
+    
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+
+p {
+    margin-top: 10px;
+   margin-bottom: 15px;
+   
+}
+.type1 {
+    color: rgba(250,251, 253, 0.718) ;
+    font-size:small;
+     
+}
+ 
+.sample{
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+   display: flex;
+ justify-content:center;
+ align-items: center;
+
+   
+}
+
+.sample p ,h1 {
+    text-align: left;
+}
+.index{
+       margin-top: 20px;
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: black;
+        max-width: 60ch;
+        line-height: 1.5;
+       
+
+      
+      }
+      
+      
+        
+.input {
+    color: black;
+    margin-top: 20px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    max-width: 69ch;
+    line-height: 1.5;
+
+}
+.Contact {
+  margin-top: 10px;
+  color: black;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.apple {
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1516663713099-37eb6d60c825?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTg1MDA0OA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1200);
+}
+ .text {
+ font-size: large;
+ }
+
+ .echo{
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+   display: flex;
+ justify-content:center;
+ align-items: center;
+  
+ }
+
+ .echo1 {
+    margin-top: 10px;
+    color: black;
+    font-weight: 700;
+    font-size: 3rem;
+ }
+ 
+ .echo2 {
+    margin-top: 20px;
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: black;
+        max-width: 60ch;
+        line-height: 1.5;
+      font-size: large;
+       text-align: left;
+        }
+
+ .echo3{
+    color: black;
+    margin-top: 20px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;
+    max-width: 69ch;
+    line-height: 1.5;
+ }
+ .echo p ,h1 {
+        text-align: left;
+    }
+
+
+    .finish {
+        width: 100%;
+        height: 150px;
+   background-color:#212529;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: large;
+   font-family: "Esteban", serif;
+   font-weight: 400;
+   font-style: normal
+    }
+
+
+    a:visited {
+        color: white;
+      
+      }
+
+      a:hover {
+        color: rgba(174, 119, 56, 0.696);
+      }
+      a:active {
+        color: #0dcaf0;
+      }
+
+      a{
+        text-decoration: none;
+      }
